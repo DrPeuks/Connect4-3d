@@ -8,3 +8,4 @@ You can play against different AI levels, it's a minimax alpha-beta algorithm.
 
 
 Still to be improved, because for the AI max level, it takes a while to calculate the "best" move (it's still Python :D) and it does that between 2 frames, so the game freezes for a bit before the AI plays. I tried to integrate threads or processes, but these are kinda complicated in Panda3D and I haven't dived into it yet :)
+
