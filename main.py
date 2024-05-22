@@ -23,7 +23,7 @@ from time import time
 
 configvars = """
 win-size 1200 600
-window-title Puissance 4
+window-title Connect 4
 show-frame-rate-meter 1
 task-timer-verbose #t
 win-origin -2, -2
