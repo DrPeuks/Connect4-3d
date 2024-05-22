@@ -62,7 +62,7 @@ class Connect4(ShowBase):
         self.angleRadians = 0 # used for setting the camera's position, Panda3d only supports angles in radians
         self.cameraRotationType = 'fancy' # 'fancy' when the player is thinking, 'turn' for a fast rotation at each play
 
-        self.cam_dist = 430
+        self.cam_dist = 460
 
         self.cameraSide = 0
         self.refAngle = 0
