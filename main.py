@@ -608,8 +608,8 @@ class Connect4(ShowBase):
                     self.refAngle = self._angleDegrees
                     self.resetAngle = True
 
-                self.angleDegrees += 3.5
-                self._angleDegrees += 3.5
+                self.angleDegrees += 8.5
+                self._angleDegrees += 8.5
                 self.angleRadians = self.angleDegrees * (pi / 180.0)
 
                 if self._angleDegrees>= self.refAngle+180:
