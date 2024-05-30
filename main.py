@@ -124,14 +124,14 @@ class Connect4(ShowBase):
 
 
         name = choice(['earth', 'mercury', 'mars', 'moon', 'phobos', 'venus'])
-        self.earth = loader.loadModel("models/planet_sphere")
+        self.earth = loader.loadModel("models/planet_sphere.bam")
         self.earth_tex = loader.loadTexture(f"models/{name}_1k_tex.jpg")
         self.earth.setTexture(self.earth_tex, 1)
         self.earth.setScale(300)
         self.earth.setZ(-400)
         self.earth.reparentTo(self.render)
 
-        self.sky = loader.loadModel("models/solar_sky_sphere")
+        self.sky = loader.loadModel("models/solar_sky_sphere.bam")
         self.sky_tex = loader.loadTexture("models/stars_1k_tex.jpg")
         self.sky.setTexture(self.sky_tex, 1)
         self.sky.reparentTo(render)
@@ -582,6 +582,8 @@ class Connect4(ShowBase):
                 self.textNodePath.setPos(-1, 0, 0.7)
             self.textNodePath.setScale(0.3, 0.3, 0.3)
             self.gameOver = True
+
+
 
 
 
