@@ -13,3 +13,7 @@ Still to be improved, because for the AI max level, it takes a while to calculat
 
 
 To build the application, ```python setup.py build_apps```
+
+
+
+Made by Damien and Mathis
