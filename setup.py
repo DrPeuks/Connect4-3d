@@ -27,6 +27,7 @@ setup(
             ],
 
             'platforms': ['win_amd64'], # remove this if you want to build for other platforms
+                                        # see at https://docs.panda3d.org/1.10/python/distribution/building-binaries
 
             # Include the OpenGL renderer
             'plugins': [
